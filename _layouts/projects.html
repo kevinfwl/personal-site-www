@@ -1,0 +1,43 @@
+---
+layout: default 
+---
+
+<div class="projects">
+    <div class="page-title">
+            PROJECTS
+    </div>
+    <div class="page-content">
+            {{content}}
+    </div>
+    <div class="row">
+        {% for project in site.projects%}
+        <a href="" class="col-lg-4 col-md-6 col-sm-12 col-12 project-item">
+            <div class="card">
+                    <img class="card-img-top" src="{{project.img | relative_url}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{project.title}}</h5>
+                        <p class="card-text">{{project}}</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    <div class="page-title">
+        IN PROGRESS
+    </div>
+    <div class="row">
+            {% for project in site.projects_in_progress %}
+            <a href="" class="col-lg-4 col-md-6 col-sm-12 col-12 project-item">
+                <div class="card">
+                        <img class="card-img-top" src="{{project.img | relative_url}}" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{project.title}}</h5>
+                            <p class="card-text">{{project}}</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                </div>
+            </a>
+            {% endfor %}
+    </div>
+</div>

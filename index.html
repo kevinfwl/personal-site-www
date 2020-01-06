@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" crossorigin="anonymous">
+
+    <title>Kevin Feng</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <div id="greeting"></div>
+            <p id="intro">I am 3rd year computer science student at the University of Waterloo. Feel free to check out some projects that I've worked on, connect on Linkedin or look at my resume!</p>
+            <!-- <div id="button-link-section">
+                <a class="links" href="{{site.baseurl}}{% link pages/projects.md %}">Projects</a>
+                <a class="links" href="assets/Resume.pdf">Resume</a>
+            </div> -->
+            <div id="icon-link-section">
+                <a class="icon-links" href="mailto:kevinfeng1999@gmail.com">    
+                    <i class="fas fa-envelope"><span aria-hidden="false"></span></i>
+                </a>
+                <a class="icon-links" href="https://github.com/kevinfwl">
+                    <i class="fab fa-github"><span aria-hidden="false"></span></i>
+                </a>
+                <a class="icon-links" href="https://www.linkedin.com/in/wen-liang-feng/">
+                    <i class="fab fa-linkedin"><span aria-hidden="false"></span></i>
+                </a>
+                <a class="icon-links" href="assets/Resume.pdf">
+                    <i class="fas fa-file"><span aria-hidden="false"></span></i>
+                </a>
+            </div>
+        </div>
+
+        <div id="alg-description">
+            <div id="alg-description-title"></div>
+            <div id="alg-description-body"></div>
+        </div> 
+        <canvas id="grid"></canvas>
+    </div>
+
+    <script>
+        var setGreeting = function () {
+            let greeting = document.getElementById("greeting");
+            let hour = new Date().getHours();
+            console.log(hour)
+            if (4 <= hour && hour < 12) greeting.innerHTML = "Good Morning!"
+            else if (12 <= hour && hour < 18) greeting.innerHTML = "Good Afternoon!"
+            else greeting.innerHTML = "Good Evening!"
+        }
+        setGreeting();
+    </script>
+    <script src="assets/js/graphUI.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body> 
+</html>

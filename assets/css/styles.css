@@ -1,0 +1,42 @@
+#nav {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.wrapper {
+    max-width: 1000 !important;
+}
+/*  */
+
+.navbar-toggler {
+    float: right;  
+    border: transparent !important;
+}
+
+.project-list {
+    display: flex;
+}
+
+/* Card and do flexbox */
+.row {
+    flex-wrap: wrap;
+}
+
+
+/* edit the card to make it square but also responsive to bootstrap (amateur way?) */
+
+.card {
+    height: 310px !important;
+    width: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

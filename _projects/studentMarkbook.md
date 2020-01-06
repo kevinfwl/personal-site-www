@@ -1,0 +1,8 @@
+---
+title: Student Markbook
+status: 1
+img: /assets/img/chip81.JPG
+Technologies: Java
+---
+
+Class management system that grades students and ranks them according to weighted test averages

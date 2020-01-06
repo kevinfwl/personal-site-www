@@ -1,0 +1,7 @@
+---
+title: Kinect 4
+img: /assets/img/chip81.JPG
+Technologies: Python, React, LeapMotion, Javascript
+---
+
+An accessible gestured controlled connect 4 game coupled with an intelligent AI opponent.
