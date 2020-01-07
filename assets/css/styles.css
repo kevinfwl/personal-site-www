@@ -1,7 +1,7 @@
 #nav {
-    border-bottom: solid;
+    /* border-bottom: solid;
     border-bottom-width: 1px;
-    border-bottom-color: grey;
+    border-bottom-color: grey; */
     padding-bottom: 0px;
     padding-top: 0px;
     padding-right: 0px;
@@ -17,6 +17,19 @@
     border: transparent !important;
 }
 
+.nav-link {
+    padding-right: 1em !important;
+}
+
+.project-heading {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+
 .project-list {
     display: flex;
 }
@@ -25,7 +38,6 @@
 .row {
     flex-wrap: wrap;
 }
-
 
 /* edit the card to make it square but also responsive to bootstrap (amateur way?) */
 
@@ -39,4 +51,25 @@
 .project-item {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.project-title {
+    font-size: 1.2em;
+}
+
+.project-description {
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration:none;
+    color: black !important;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-card {
+    padding: 0.5em 0.5em 0.5em 0.5em !important;
 }

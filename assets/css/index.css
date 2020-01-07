@@ -3,7 +3,7 @@ html, body, canvas {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 canvas {
@@ -12,7 +12,6 @@ bottom: 0;
 right: 0;
 z-index: -1;
 }
-
 
 .title {
   margin-left: 30px;
@@ -55,11 +54,18 @@ z-index: -1;
   bottom: 1em;
   right: 1em;
   color: grey;
-  font-size: 0.8em;
 }
 
 #alg-description:hover {
   color:white;
+}
+
+#alg-description-title {
+  font-size: 0.9em;
+}
+
+#alg-description-body {
+  font-size: 0.7em;
 }
 
 .icon-links {
@@ -86,6 +92,19 @@ i {
 
 /* watch for screen changes */
 @media(max-width: 600px) {
+  html {
+    font-size: 1em;  
+  }
+
+  #alg-description {
+    display: block;
+    left: 1em
+  }
+
+  #alg-description-title, #alg-description-body {
+    font-size: 0.65em;
+  }
+
   .container {
     text-align: center !important;
   }
@@ -93,9 +112,5 @@ i {
   .title {
     width: 95%;
     margin: 0 auto;
-  }
-
-  #alg-description {
-    font-size: 0.9em;
   }
 }
