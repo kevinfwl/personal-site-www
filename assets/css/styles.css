@@ -2,6 +2,7 @@
     /* border-bottom: solid;
     border-bottom-width: 1px;
     border-bottom-color: grey; */
+    background-color: white !important;
     padding-bottom: 0px;
     padding-top: 0px;
     padding-right: 0px;
@@ -42,8 +43,8 @@
 /* edit the card to make it square but also responsive to bootstrap (amateur way?) */
 
 .card {
-    height: 310px !important;
-    width: 310px !important;
+    height: 320px !important;
+    width: 320px !important;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,6 +52,13 @@
 .project-item {
     padding-top: 10px;
     padding-bottom: 10px;
+    text-decoration:none;
+    color: black !important;
+}
+
+.project-item:hover {
+    text-decoration:none;
+
 }
 
 .project-title {
@@ -59,11 +67,6 @@
 
 .project-description {
     font-size: 0.9em;
-}
-
-a {
-    text-decoration:none;
-    color: black !important;
 }
 
 .card:hover {
