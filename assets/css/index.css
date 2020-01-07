@@ -30,11 +30,15 @@ z-index: -1;
   border-color: white;
   color: white;
   border-radius: 2px;
+  
 }
 
 .links:hover {
   color: grey;
   border-color: grey;
+  text-decoration: none;
+  color: white;
+  /* background-color: rgba(red, green, blue, alpha); */
 }
 
 #greeting {
