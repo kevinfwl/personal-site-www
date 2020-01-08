@@ -1,3 +1,14 @@
+/*navbar view*/
+.back-button {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.back-button:hover {
+    color:grey
+}
+
+
 #nav {
     background-color: white !important;
     padding-bottom: 0px;
@@ -8,16 +19,20 @@
 .wrapper {
     max-width: 1000 !important;
 }
-/*  */
+
 
 .navbar-toggler {
     float: right;  
     border: transparent !important;
 }
 
+
 .nav-link {
     padding-right: 1em !important;
 }
+
+/* Project view */
+
 
 .project-heading {
     margin-bottom: 1em;
@@ -32,12 +47,13 @@
     display: flex;
 }
 
-/* Card and do flexbox */
+/* Card views and do flexbox */
+/* edit the card to make it square but also responsive to bootstrap (amateur way?) */
+
 .row {
     flex-wrap: wrap;
 }
 
-/* edit the card to make it square but also responsive to bootstrap (amateur way?) */
 
 .card {
     height: 320px !important;
