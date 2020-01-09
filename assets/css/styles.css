@@ -1,7 +1,7 @@
 /*navbar view*/
 .back-button {
-    margin-top: 1em;
-    margin-left: 1em;
+    margin-top: 1.25em;
+    margin-left: 1.25em;
 }
 
 .back-button:hover {
@@ -62,8 +62,8 @@
 }
 
 .project-item {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-decoration:none;
     color: black !important;
 }
