@@ -1,6 +1,6 @@
 ---
 layout: home
-name: Kevin Feng
+title: Kevin Feng
 permalink: "/"
 ---
 

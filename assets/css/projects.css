@@ -1,0 +1,89 @@
+.technologies {
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.6em;
+    font-size: 0.8em;
+}
+
+.technology-item {
+    margin-right: 0.4em;
+    padding: 0.25em;
+    border-radius: 5%;
+    /* color: red; */
+    font-weight: 600;
+    /* border: solid; */
+
+    color: black;
+}
+
+.java {
+    color: red;
+    /* border-color:.*; */
+}
+
+.javascript {
+    color: #b3a92b;
+    /* border-color:.*; */
+}
+
+.cpp {
+    color: lightblue;
+    /* border-color:.*; */
+}
+
+.nodejs {
+    color: green;
+    /* border-color:.*; */
+}
+
+.angular {
+    color: maroon;
+    /* border-color:.*; */
+}
+
+.mongodb {
+    color: greenyellow;
+    /* border-color:.*; */
+}
+
+.gcp {
+    color: #fcba03;
+    /* border-color:.*; */
+}
+
+.react {
+    color: #34bdeb;
+    /* border-color:.*; */
+}
+
+.android {
+    color: #A5CA3C;
+    /* border-color:.*; */
+}
+
+.javafx {
+    color: #E76F00;
+}
+
+.raspberrypi {
+    color:#C41949;
+    /* border-color:.*; */
+}
+
+.leapmotion {
+    color: #5EAA02;
+    /* border-color:.*; */
+}
+
+.python {
+    color: #366994;
+    /* border-color:.*; */
+}
+
+.azure {
+    color: #2075B8;
+}
+
+.flask {
+    color: #860859;
+}

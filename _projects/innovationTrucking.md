@@ -1,7 +1,7 @@
 ---
 title: Innovation Trucking
 img: /assets/img/chip81.JPG
-Technologies: Flask, Python, AngularJS, RaspberryPi, Android
+Technologies: Python, Flask, Angular, RaspberryPi, Android
 link: https://github.com/kevinfwl/Innovation-Trucking
 ---
 

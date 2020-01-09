@@ -1,7 +1,7 @@
 ---
 title: Kinect 4
 img: /assets/img/chip81.JPG
-Technologies: Python, React, LeapMotion, Javascript
+Technologies: Python, Javascript, React, LeapMotion
 link: https://github.com/kevinfwl/kinect-4
 ---
 

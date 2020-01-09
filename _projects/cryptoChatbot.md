@@ -1,7 +1,7 @@
 ---
 title: Cryptocurrency Chatbot
 img: /assets/img/chip81.JPG
-Technologies: NodeJS, javascript
+Technologies: Javascript, NodeJS
 link: https://github.com/kevinfwl/telegram-chatbot
 ---
 
