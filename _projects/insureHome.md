@@ -1,6 +1,6 @@
 ---
 title: Insure Home
-img: /assets/img/insurehome.PNG
+img: /assets/img/insurehome2.png
 Technologies: Python, Flask, Azure, React Native
 link: https://github.com/kevinfwl/HackTheSix-Home-Insurance-App
 ---
