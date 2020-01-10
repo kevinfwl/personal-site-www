@@ -1,6 +1,6 @@
 ---
 title: Tetris
-img: /assets/img/chip81.JPG
+img: /assets/img/tetris.png
 Technologies: C++
 ---
 

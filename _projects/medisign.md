@@ -1,6 +1,6 @@
 ---
 title: Medisign
-img: /assets/img/chip81.JPG
+img: /assets/img/medisign.JPG
 Technologies: NodeJS, MongoDB, GCP, React Native
 link: https://github.com/kevinfwl/Medisign
 ---

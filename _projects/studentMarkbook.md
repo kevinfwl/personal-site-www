@@ -1,7 +1,7 @@
 ---
 title: Student Markbook
 status: 1
-img: /assets/img/chip81.JPG
+img: /assets/img/classMarkbook.JPG
 Technologies: Java
 link: https://github.com/kevinfwl/Class-Markbook
 ---

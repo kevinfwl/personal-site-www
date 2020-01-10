@@ -1,6 +1,6 @@
 ---
 title: WLP4 Compiler
-img: /assets/img/chip81.JPG
+img: /assets/img/wlp4.JPG
 Technologies: C++
 ---
 

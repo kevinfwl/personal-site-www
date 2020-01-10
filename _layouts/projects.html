@@ -10,11 +10,11 @@ layout: default
             {{content}}
     </div>
     <div class="row">
-        {% for project in site.projects%}
+        {% for project in site.projects %}
         {% assign technologies = project.Technologies | split: ", " %}
         <a href="{{project.link}}" class="col-lg-4 col-md-6 col-sm-12 col-12 project-item">
             <div class="card">
-                <img class="card-img-top" src="{{project.img | relative_url}}" alt="Card image cap">
+                <img class="project-img" src="{{project.img | relative_url}}" alt="Card image cap">
                 <div class="card-body project-card">
                     <h5 class="card-title project-title">{{project.title}}</h5>
                     <div class="project-description">{{project}}</div>
@@ -32,7 +32,7 @@ layout: default
         </a>
         {% endfor %}
     </div>
-    <div class="project-heading">
+    <!-- <div class="project-heading">
         IN PROGRESS
     </div>
     <div class="row">
@@ -57,5 +57,5 @@ layout: default
             </div>
         </a>
         {% endfor %}
-    </div>
+    </div> -->
 </div>
